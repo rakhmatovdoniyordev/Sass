@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1182px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+img{
+   max-width: 100%;
+}
+.title{
+    font-family: $font;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 94px;
+}
+.subtitle{
+    font-family: $font;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 28px;
+}
